@@ -6,12 +6,15 @@ date: 2016-02-16 15:32:24.000000000 +09:00
 
 #### What's this
 
-[Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
+[Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). I use it and do some changes, which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
 
 #### Usage
 
+First, you should download [Ruby with devkit](https://rubyinstaller.org/downloads/).If you download another version, maybe you will make something wrong.
+
 ```bash
-$ git clone https://github.com/onevcat/vno-jekyll.git your_site
+$ gem install bundler jekyll
+$ git clone git@github.com:RudolfLiu/rudolfliu.github.io.git your_site
 $ cd your_site
 $ bundler install
 $ bundler exec jekyll serve
@@ -31,15 +34,13 @@ You could replace the background and avatar image in `assets/images` folder to c
 
 #### Sites using Vno
 
-[My blog](http://onevcat.com) is using `Vno Jekyll` as well, you could see how it works in real. There are some other sites using the same theme. You can find them below:
+[My blog](https://rudolfliu.github.io/) is using `Vno Jekyll` as well, you could see how it works in real. There are some other sites using the same theme. You can find them below:
 
 | Site Name    | URL                                                |
 | ------------ | ---------------------------------------------------|
 | OneV's Den   | [http://onevcat.com](http://onevcat.com)           |
 | July Tang    | [http://blog.julytang.xyz](http://onevcat.com)     |
 | Harry Lee    | [http://qiuqi.li](http://qiuqi.li)                 |
-
-> If you happen to be using this theme, welcome to [send me a pull request](https://github.com/onevcat/vno-jekyll/pulls) to add your site link here. :)
 
 #### License
 

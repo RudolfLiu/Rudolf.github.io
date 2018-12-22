@@ -1,10 +1,6 @@
 # Basic
 title: RUDOLF
-<<<<<<< HEAD
 subtitle: Artificial Intelligence, From life to life
-=======
-subtitle: Artificial Intelligence, What is taken from life is used for life
->>>>>>> 6d10849a51e3ec0ee02a3cc9bc43377f3ad5a1e1
 welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
 description: Vno Jekyll is a port of my Ghost theme vno.
 creator: <a href="http://onev.cat">@onevcat</a>

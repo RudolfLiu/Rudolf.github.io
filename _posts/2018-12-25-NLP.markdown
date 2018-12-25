@@ -1,0 +1,52 @@
+---
+layout: post
+title: "NLP"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [ml]
+tags: [ml]
+redirect_from:
+  - /2018/12/27/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+## word embedding
+***
+### ***why use it?*** (vs one-hot)
+1. `one-hot`不能表征2个词之间的关系
+![alt text](/assets/attached/pic1.png "embedding")
+2. 可以起到`降维`的作用
+3. 有`类比推理`的特性，使用相似度
+![alt text](/assets/attached/pic3.png "sim")
+
+> word embedding常常会伴随着`transfer learning`，背后有庞大的语料库作支撑;
+e.x.,将预训练的模型原本10000维的特征embding到100维，即使很小的样本也能很好
+的work。
+
+> word embedding与`face encoding`有这异曲同工之妙，区别在于word embedding有
+一个固定的语料库。
+![alt text](/assets/attached/pic2.png "face encoding")
+
+##### T-SUE
+将高维数据能映射到二维上输出显示
+
+***
+### ***how to generate word embedding?***
+通过使用语料库里的一个词作为上下文，然后使用神经网络来进行预测学习
+![alt text](/assets/attached/pic4.png "generate")
+
+##### word2Vec Model
+* skip-gram
+![alt text](/assets/attached/pic5.png "gram")
+> 使用softmax会因为维数太高而计算太慢，因此使用改进的`Hierarchical softmax`,
+有点类似`快搜`的方法；
+
+`negative sampling`是针对skip-gram高维softmax的另一种解决方案。它将原本的概率问题转化为
+二分类问题，将`上下文`的到的word作为target的为正例，而从`词库选`的为负例。词库选择的方式
+按照词频3/4选择。
+
+![alt text](/assets/attached/pic6.png "sample")
+> k值的选择一般为5~20,对于大语料库则为2~5；语料库越小，k值选择越小。
+
+* CBOW

@@ -38,7 +38,7 @@ e.x.,将预训练的模型原本10000维的特征embding到100维，即使很小
 
 ##### word2Vec Model
 * skip-gram
-![alt text](/assets/attached/pic5.PNG "gram")
+![alt text](/assets/attached/pic5.PNG =300 "gram")
 > 使用softmax会因为维数太高而计算太慢，因此使用改进的`Hierarchical softmax`,
 有点类似`快搜`的方法；
 

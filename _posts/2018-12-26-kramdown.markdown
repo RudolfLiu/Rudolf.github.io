@@ -1,0 +1,13 @@
+---
+layout: post
+title: "kramdown语法学习"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [tools]
+tags: [kramdown]
+redirect_from:
+  - /2018/12/26/
+---
+
+~~~
+http://gohom.win/2015/11/06/Kramdown-note/
+~~~

@@ -1,0 +1,15 @@
+---
+layout: post
+title: "LDA"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [nlp]
+redirect_from:
+  - /2018/12/26/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+LSI
+类似于矩阵分解

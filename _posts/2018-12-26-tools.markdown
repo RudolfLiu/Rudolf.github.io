@@ -1,0 +1,15 @@
+---
+layout: post
+title: "常用正则表达式"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [tools]
+tags: [正则表达式]
+redirect_from:
+  - /2018/12/26/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+![alt text](/assets/attached/pic8.PNG "regular")
+![alt text](/assets/attached/pic9.PNG "regular")

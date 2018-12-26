@@ -11,9 +11,9 @@ redirect_from:
 * Kramdown table of contents
 {:toc .toc}
 
-## word embedding
+# word embedding
 ***
-### ***why use it?*** (vs one-hot)
+## ***why use it?*** (vs one-hot)
 1. `one-hot`不能表征2个词之间的关系
 ![alt text](/assets/attached/pic1.PNG "embedding")
 2. 可以起到`降维`的作用
@@ -28,15 +28,15 @@ e.x.,将预训练的模型原本10000维的特征embding到100维，即使很小
 一个固定的语料库。
 ![alt text](/assets/attached/pic2.PNG "face encoding")
 
-##### T-SUE
+#### T-SUE
 将高维数据能映射到二维上输出显示
 
 ***
-### ***how to generate word embedding?***
+## ***how to generate word embedding?***
 通过使用语料库里的一个词作为上下文，然后使用神经网络来进行预测学习
 ![alt text](/assets/attached/pic4.PNG "generate")
 
-##### word2Vec Model
+### word2Vec Model
 * skip-gram
 ![alt text](/assets/attached/pic5.PNG "gram")
 > 使用softmax会因为维数太高而计算太慢，因此使用改进的`Hierarchical softmax`,
@@ -50,3 +50,12 @@ e.x.,将预训练的模型原本10000维的特征embding到100维，即使很小
 > k值的选择一般为5~20,对于大语料库则为2~5；语料库越小，k值选择越小。
 
 * CBOW
+
+### GloVe词向量
+![alt text](/assets/attached/pic7.PNG "glove")
+
+f(x)为权值，对于the，is，of这种减小权值。
+
+## 应用
+### 情绪分类
+### 减少机器学习的人类偏见问题

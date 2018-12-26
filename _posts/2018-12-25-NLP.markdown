@@ -2,10 +2,10 @@
 layout: post
 title: "NLP"
 description: "A quick demo of Simple Texture theme's code highlighting features"
-categories: [ml]
-tags: [ml]
+categories: [deep-learning]
+tags: [nlp]
 redirect_from:
-  - /2018/12/27/
+  - /2018/12/25/
 ---
 
 * Kramdown table of contents

@@ -1,0 +1,35 @@
+---
+layout: post
+title: "HMM"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [nlp]
+redirect_from:
+  - /2018/12/26/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+结构化数据，样本之间是不独立的
+
+隐状态是离散的，而观察值可以是连续的。
+
+机器学习问题中都会存在的问题。
+![alt text](/assets/attached/pic10.PNG "hmm")
+
+A = ()
+
+‘你属于中产阶级输入隐状态，而你日常花销是可观测值。’
+
+# 概率计算
+
+## 直接算法
+
+## 前向算法
+
+## 后向算法
+***
+# 参数估计
+
+# 模型预测

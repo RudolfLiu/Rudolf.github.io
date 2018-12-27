@@ -7,6 +7,9 @@ redirect_from:
   - /2017/05/25/
 ---
 
+# good way to learn Markdown
+https://mp.csdn.net/mdeditor?not_checkout=1#fnref2
+
 > This is [kramdown][kramdown] formatting test page for [Simple Texture][Simple Texture] theme.
 
 * Kramdown table of contents

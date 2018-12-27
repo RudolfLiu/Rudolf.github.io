@@ -1,0 +1,32 @@
+---
+layout: post
+title: "货车调度问题"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [algorithm]
+tags: [algorithm]
+redirect_from:
+  - /2018/12/27/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+## 如何解决PDPTW（Pickup and Delivery Problem With Time Windows）问题
+可视为PDPTW问题:
+1. DARP问题
+2. HTP问题
+3. CCPDP问题
+
+## VRP 车辆路由问题
+1960年VRP被提出，若加入时间限定，则为VSP;
+![alt text](/assets/attached/pic11.PNG "VRP")
+
+* 最小化使用车辆数目
+* 最小化总服务时间
+* 最小化车辆总运输距离
+* 最小化客户不满意度
+
+动态车辆调度
+
+[车辆调度问题优化算法研究](https://max.book118.com/html/2016/0314/37588973.shtm)
+[物流配送车辆优化调度的综述](http://cf.lcchina.org.cn/docbak/f/3/0/81603_4ffcfaea76f30.pdf)

@@ -2,7 +2,7 @@
 layout: post
 title: "Daily English"
 description: "A quick demo of Simple Texture theme's code highlighting features"
-categories: [daily english]
+categories: [daily-english]
 tags: [English]
 redirect_from:
   - /2018/12/26/

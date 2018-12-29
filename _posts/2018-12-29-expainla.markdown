@@ -1,0 +1,26 @@
+---
+layout: post
+title: "方程组的几何解释"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [linear-algebra]
+tags: [linear-algebra]
+redirect_from:
+  - /2018/12/29/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+
+Row picture
+![alt text](/assets/attached/pic17.PNG "row"){:height="50%" width="50%"}
+
+cow picture
+
+向量的线性组合
+
+![alt text](/assets/attached/pic18.PNG "cow"){:height="50%" width="50%"}
+
+![alt text](/assets/attached/pic19.PNG "cow"){:height="50%" width="50%"}
+
+非奇异、可逆

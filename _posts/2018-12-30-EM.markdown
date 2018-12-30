@@ -1,0 +1,30 @@
+---
+layout: post
+title: "EM"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [nlp]
+redirect_from:
+  - /2018/12/30/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+
+
+# GMM
+
+`问题`: GMM里模型里加号没办法使得偏导为0
+`方案`: 用迭代优化一步步求取theta
+
+## 隐变量的作用
+
+* 会简化问题的解法
+* 但不能去改变问题的边缘分布
+![alt text](/assets/attached/pic20.PNG "hmm")
+
+## EM 算法收敛
+![alt text](/assets/attached/pic21.PNG "em")
+
+通过jensen可证明h(x)的假设成立

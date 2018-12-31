@@ -16,21 +16,51 @@ redirect_from:
 隐状态是离散的，而观察值可以是连续的。
 
 机器学习问题中都会存在的问题。
-![alt text](/assets/attached/pic10.PNG "hmm")
+![alt text](/assets/attached/pic10.PNG "hmm"){:height="50%" width="50%"}
 
 A = ()
 
 ‘你属于中产阶级输入隐状态，而你日常花销是可观测值。’
 
+在了解了隐状态后观测值就是独立的了。
+![alt text](/assets/attached/pic30.PNG "hmm"){:height="50%" width="50%"}
+> 发射矩阵是离散的哦
+
+![alt text](/assets/attached/pic31.PNG "hmm"){:height="50%" width="50%"}
+> 引出pi
+
+# ***HMM里的三个问题***
+![alt text](/assets/attached/pic33.PNG "hmm"){:height="50%" width="50%"}
+
 # 概率计算
 
 ## 直接算法
 
+
+```
+***常用小技巧***
+连加号去增加隐变量，类似积分
+增加辅助变量，然后用积分积掉
+```
+
+![alt text](/assets/attached/pic32.PNG "hmm"){:height="50%" width="50%"}
+
+不能直接去计算维度太高
+
 ## 前向算法
+
+![alt text](/assets/attached/pic34.PNG "hmm"){:height="50%" width="50%"}
+
+> 将原本k的t次方降到了k乘t
 
 ## 后向算法
 ***
 # 参数估计
+
+EM算法公式
+![alt text](/assets/attached/pic35.PNG "hmm"){:height="50%" width="50%"}
+
+> 具体em推导如何计算看达佬ppt
 
 频数
 bw算法

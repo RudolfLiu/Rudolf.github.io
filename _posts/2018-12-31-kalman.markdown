@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Kalman"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [dynamic-model]
+redirect_from:
+  - /2018/12/26/
+---
+
+![alt text](/assets/attached/pic36.PNG "hmm"){:height="50%" width="50%"}
+
+filtering 问题是由第三个问题引申出来的
+
+![alt text](/assets/attached/pic37.PNG "hmm"){:height="50%" width="50%"}
+
+发射矩阵有个噪声服从Gaussian分布的w.
+
+利用小车模型去构建kalman filter
+
+![alt text](/assets/attached/pic38.PNG "hmm"){:height="50%" width="50%"}
+![alt text](/assets/attached/pic39.PNG "hmm"){:height="50%" width="50%"}
+
+# *就此打住，滞后再学*
+徐亦达老师[课程](https://search.bilibili.com/all?keyword=%E5%BE%90%E4%BA%A6%E8%BE%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0)简单易懂，以后得空继续观摩

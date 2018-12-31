@@ -17,6 +17,8 @@ redirect_from:
 
 增广矩阵
 
+***
+
 # Back substitution
 
 
@@ -43,6 +45,8 @@ redirect_from:
 ![alt text](/assets/attached/pic28.PNG "row"){:height="50%" width="50%"}
 
 > 左乘进行行变换，右乘进行列变换，因此交换律不适合
+
+***
 
 # Matrices multiplication
 

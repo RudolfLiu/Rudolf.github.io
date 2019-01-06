@@ -101,7 +101,7 @@ BP对错误的短句子而得到高分进行惩罚
 
 `问题`：机器在翻译长句时，往往表现差
 
-![alt text](/assets/attached/pic20.PNG "attention"){:height="50%" width="50%"}
+![alt text](/assets/attached/pic40.PNG "attention"){:height="50%" width="50%"}
 
 ## RNN的应用
 
@@ -111,6 +111,6 @@ BP对错误的短句子而得到高分进行惩罚
 
 * `ctc cost`:输入高达1000为而真正输出远小于输入
 
-![alt text](/assets/attached/pic21.PNG "attention"){:height="50%" width="50%"}
+![alt text](/assets/attached/pic41.PNG "attention"){:height="50%" width="50%"}
 ### Trigger word detection algorithm
-![alt text](/assets/attached/pic22.PNG "attention"){:height="50%" width="50%"}
+![alt text](/assets/attached/pic42.PNG "attention"){:height="50%" width="50%"}

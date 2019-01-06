@@ -1,0 +1,32 @@
+---
+layout: post
+title: "boosting"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [machine-learning]
+redirect_from:
+  - /2019/01/04/
+---
+
+![alt text](/assets/attached/pic36.PNG "hmm"){:height="50%" width="50%"}
+
+* Kramdown table of contents
+{:toc .toc}
+
+# 分析随机森林的特点
+构建一颗决策树的关键：`树结构`和`叶权值`
+
+随机森林使用bagging进行集成，在样本上着手
+
+只是简单进行结果平均或投票
+
+# 由弱分类器得到强分类器
+
+## 样本加权、分类器加权
+
+# adaboost算法
+
+## 算法描述
+## 前向分步算法 + 指数损失函数
+
+# 由Adaboost/GBDT改造随机森林

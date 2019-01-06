@@ -100,3 +100,17 @@ BP对错误的短句子而得到高分进行惩罚
 ## Attention Model
 
 `问题`：机器在翻译长句时，往往表现差
+
+![alt text](/assets/attached/pic20.PNG "attention"){:height="50%" width="50%"}
+
+## RNN的应用
+
+### Speech recognition problem
+
+`预处理`:将原始声音片段生成声谱图
+
+* `ctc cost`:输入高达1000为而真正输出远小于输入
+
+![alt text](/assets/attached/pic21.PNG "attention"){:height="50%" width="50%"}
+### Trigger word detection algorithm
+![alt text](/assets/attached/pic22.PNG "attention"){:height="50%" width="50%"}

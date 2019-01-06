@@ -12,11 +12,10 @@ redirect_from:
 {:toc .toc}
 
 
-Row picture
+# Row picture
 ![alt text](/assets/attached/pic17.PNG "row"){:height="50%" width="50%"}
 
-cow picture
-
+# cow picture
 向量的线性组合
 
 ![alt text](/assets/attached/pic18.PNG "cow"){:height="50%" width="50%"}

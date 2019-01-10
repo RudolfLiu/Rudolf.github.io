@@ -30,3 +30,7 @@ redirect_from:
 ## 前向分步算法 + 指数损失函数
 
 # 由Adaboost/GBDT改造随机森林
+
+xgboost/gbdt 仅是更改了了划分的依据 ？？
+
+adaboost是对样本加权，而gbdt仅对树进行加权

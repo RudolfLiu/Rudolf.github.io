@@ -1,0 +1,41 @@
+---
+layout: post
+title: "遗传算法"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [machine-learning]
+redirect_from:
+  - /2019/01/09/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+# 遗传的过程
+![alt text](/assets/attached/pic43.PNG "hmm"){:height="50%" width="50%"}
+
+
+
+
+
+## algo1 计算每个个体的适应概率进行选择
+
+![alt text](/assets/attached/pic44.PNG "hmm"){:height="50%" width="50%"}
+
+* '左'值产生突变：爬山
+* '右'进行交叉互换：结合个体优点
+
+#### 存在的问题
+容易困限于极大值之中
+
+## algo2 不将适应值本身作为概率（排序空间）
+![alt text](/assets/attached/pic45.PNG "hmm"){:height="50%" width="50%"}
+也会困于最近的'峰值'
+
+***模拟退火***：通过增大学习率，可以跳出峰值，再利用小的学习率，可以达到'极值'
+
+#### 存在的问题
+在大的gap中没办法跳出峰值
+
+## algo3 不仅考虑个体的适应性也要考虑个体的多样性
+![alt text](/assets/attached/pic46.PNG "hmm"){:height="50%" width="50%"}

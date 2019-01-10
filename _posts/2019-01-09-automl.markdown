@@ -1,0 +1,27 @@
+---
+layout: post
+title: "automl"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [machine-learning]
+redirect_from:
+  - /2019/01/09/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+# Bayesian optimization
+
+## why not use grid search?
+when you are training 'sophisticated models' on large data sets, it can sometimes
+take on the order of hours, or maybe even days, to get 'a single sample' from f
+> 也就是一次运行时间太长，而这样速度肯定不行。
+
+## how does it work?
+1. Using previously evaluated points x1:n, compute a posterior expectation of what the loss f looks like.
+2. Sample the loss f at a new point xnew, that maximizes some utility of the expectation of f. The utility
+3. specifies which regions of the domain of f are optimal to sample from.
+
+
+Bayesian optimization with scikit-learn * [read more](https://thuijskens.github.io/2016/12/29/bayesian-optimisation/)

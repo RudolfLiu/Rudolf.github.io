@@ -31,7 +31,9 @@ A喜欢购买食材，像肉类，蔬菜类。而现在B和A发现有很多类�
 * 商品信息以及属性
 * 优惠券的信息
 * etc.
+
 ***
+
 # 车辆调度问题
 ![alt text](/assets/attached/pic48.PNG "hmm"){:height="50%" width="50%"}
 

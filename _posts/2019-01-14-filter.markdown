@@ -1,0 +1,50 @@
+---
+layout: post
+title: "推荐系统"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [machine-learning]
+tags: [machine-learning]
+redirect_from:
+  - /2019/01/09/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+# 优惠券推荐系统
+
+
+## 协同过滤
+根据用户以往消费习惯和个人信息与商品构成相似度矩阵，再映射到分类维度上，然后可以构建归属类别：喜欢购买水果的，喜欢购买食材的;
+分完类别后就可以根据用户券的类别来相应的推荐给用户了。
+
+![alt text](/assets/attached/pic47.PNG "hmm"){:height="50%" width="50%"}
+
+
+## 基于内容
+A喜欢购买食材，像肉类，蔬菜类。而现在B和A发现有很多类似的属性，比如她们同为家庭主妇，那么我们就可以通过A的所构建的类别来向B推荐商品。当然
+这两套算法并不是单独运行的而是需要级联成一个系统，通过bayes算法来做联立。
+
+## 所需数据
+* 用户个人信息
+* 用户以往购物记录
+* 商品信息以及属性
+* 优惠券的信息
+* etc.
+***
+# 车辆调度问题
+![alt text](/assets/attached/pic48.PNG "hmm"){:height="50%" width="50%"}
+
+* 最小化使用车辆数目
+* 最小化总服务时间
+* 最小化车辆总运输距离
+* 最小化客户不满意度
+
+## 假设约束
+* 车辆容量
+* 车辆行程限制
+* 交通路况限制
+* 具体分店问题
+* etc.
+
+> 上述多处于理想构建模型，具体还需实际场景分析

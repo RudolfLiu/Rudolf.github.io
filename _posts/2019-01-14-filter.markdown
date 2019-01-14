@@ -18,7 +18,7 @@ redirect_from:
 根据用户以往消费习惯和个人信息与商品构成相似度矩阵，再映射到分类维度上，然后可以构建归属类别：喜欢购买水果的，喜欢购买食材的;
 分完类别后就可以根据用户券的类别来相应的推荐给用户了。
 
-![alt text](/assets/attached/pic47.png "filter"){:height="30%" width="30%"}
+![alt text](/assets/attached/pic47.png "filter"){:height="40%" width="40%"}
 
 
 ## 基于内容

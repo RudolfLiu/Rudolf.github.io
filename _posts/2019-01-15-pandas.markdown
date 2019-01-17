@@ -1,0 +1,28 @@
+---
+layout: post
+title: "pandas常用函数"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [API]
+tags: [API]
+redirect_from:
+  - /2019/01/15/
+---
+
+"""
+  修改列名：trn = trn.rename( columns={'样本id':'id','收率':'target'} )
+  重置index：data = data.reset_index()
+"""
+
+## 函数应用
+* apply()
+  - 一种让函数作用于列或者行操作
+* applymap()
+  - 一种让函数作用于DataFrame每一个元素的操作
+* map()
+  - 一种让函数作用于Series每一个元素的操作
+
+## 索引
+* iloc
+  - 只能通过行号索引
+* loc
+  - 可以通过行号和行标签进行索引

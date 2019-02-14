@@ -1,0 +1,24 @@
+---
+layout: post
+title: "AI"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [AI]
+tags: [AI]
+redirect_from:
+  - /2019/02/13/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+
+# 人工智能综述
+## 图灵测试
+![alt text](/assets/attached/pic50.PNG "hmm"){:height="50%" width="50%"}
+
+## 视觉图灵测试
+![alt text](/assets/attached/pic51.PNG "hmm"){:height="50%" width="50%"}
+
+## 中文屋
+揭示计算机绝不可能描述为有‘智力’或‘知性’，不管它多么智能
+![alt text](/assets/attached/pic52.PNG "hmm"){:height="50%" width="50%"}

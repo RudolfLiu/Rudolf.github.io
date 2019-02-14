@@ -1,0 +1,22 @@
+---
+layout: post
+title: "微积分重点"
+description: "A quick demo of Simple Texture theme's code highlighting features"
+categories: [微积分]
+tags: [微积分]
+redirect_from:
+  - /2019/02/13/
+---
+
+* Kramdown table of contents
+{:toc .toc}
+
+
+# 微积分总览
+> 微积分原理：两函数关系
+
+![alt text](/assets/attached/pic49.PNG "hmm"){:height="50%" width="50%"}
+
+函数一 -> 函数二  : 微分学
+
+函数二 -> 函数一  : 积分学

@@ -13,7 +13,9 @@ redirect_from:
 
 
 $$
+\begin{align*}
   A\cdot B = C
+\end{align*}
 $$
 1. A行乘B列
 2. A的列向量的线性组合
